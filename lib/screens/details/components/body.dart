@@ -3,6 +3,7 @@ import 'package:shop_app/constants.dart';
 import 'package:shop_app/models/Products.dart';
 import 'package:shop_app/screens/details/components/product_title_with_image.dart';
 
+import 'add_to_cart.dart';
 import 'color_and_size.dart';
 import 'counter_with_fav_btn.dart';
 import 'description.dart';
@@ -38,13 +39,11 @@ class Body extends StatelessWidget {
                   ),
                   child: Column(
                     children: <Widget>[
-                      ColorAndSize(
-                        product: product,
-                      ),
-                      Description(
-                        product: product,
-                      ),
+                      ColorAndSize(product: product),
+                      SizedBox(),
+                      Description(product: product),
                       CounterWithFavBtn(),
+                      AddToCart(product: product),
                     ],
                   ),
                 ),
