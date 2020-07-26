@@ -4,6 +4,7 @@ import 'package:shop_app/models/Products.dart';
 import 'package:shop_app/screens/details/components/product_title_with_image.dart';
 
 import 'color_and_size.dart';
+import 'counter_with_fav_btn.dart';
 import 'description.dart';
 
 class Body extends StatelessWidget {
@@ -43,6 +44,7 @@ class Body extends StatelessWidget {
                       Description(
                         product: product,
                       ),
+                      CounterWithFavBtn(),
                     ],
                   ),
                 ),
