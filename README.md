@@ -1,8 +1,9 @@
-# shop app
+# Shop App
 
 An e-commerce app made with Flutter.
 
 ## Demo
+
 <p align="center">
     <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/demo/homeScreen.png" alt="Home Screen" />
     <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/demo/detailScreen.png" alt="Detail Screen" />
