@@ -5,10 +5,10 @@ import 'package:shop_app/screens/home/home_screen.dart';
 // 18 MINS 40S
 
 void main() {
-  runApp(MyApp());
+  runApp(ShopApp());
 }
 
-class MyApp extends StatelessWidget {
+class ShopApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
