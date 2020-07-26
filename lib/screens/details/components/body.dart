@@ -40,7 +40,6 @@ class Body extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       ColorAndSize(product: product),
-                      SizedBox(),
                       Description(product: product),
                       CounterWithFavBtn(),
                       AddToCart(product: product),
