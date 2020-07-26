@@ -3,6 +3,7 @@ import 'package:shop_app/constants.dart';
 import 'package:shop_app/models/Products.dart';
 
 import 'categories.dart';
+import 'item_card.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -21,31 +22,22 @@ class Body extends StatelessWidget {
           ),
         ),
         Categories(),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Container(
-              padding: EdgeInsets.all(kDefaultPadding),
-              height: 180,
-              width: 160,
-              decoration: BoxDecoration(
-                color: products[0].color,
-                borderRadius: BorderRadius.circular(16),
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
+            child: GridView.builder(
+              itemCount: products.length,
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                crossAxisSpacing: kDefaultPadding,
+                mainAxisSpacing: kDefaultPadding,
+                childAspectRatio: 0.75,
               ),
-              child: Image.asset(products[0].image),
+              itemBuilder: (context, index) => ItemCard(
+                product: products[index],
+              ),
             ),
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: kDefaultPadding / 4),
-          child: Text(
-            products[0].title,
-            style: TextStyle(color: kTextLightColor),
           ),
-        ),
-        Text(
-          '\$234',
-          style: TextStyle(fontWeight: FontWeight.bold),
         ),
       ],
     );
