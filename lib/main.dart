@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shop_app/constants.dart';
 import 'package:shop_app/screens/home/home_screen.dart';
 
-// 7 MINS 15S
+// 18 MINS 40S
 
 void main() {
   runApp(MyApp());
