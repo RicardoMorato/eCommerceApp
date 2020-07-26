@@ -20,6 +20,10 @@ class Body extends StatelessWidget {
           ),
         ),
         Categories(),
+        Container(
+          height: 180,
+          width: 160,
+        ),
       ],
     );
   }
