@@ -4,9 +4,9 @@ An e-commerce app made with Flutter.
 
 ## Demo
 <div style="display: flex; align-items: center; justify-content: center">
-    <img src="https://github.com/RicardoMorato/eCommerceApp/demo/homeScreen.png" alt="Home Screen" />
+    <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/demo/homeScreen.png" alt="Home Screen" />
     <br>
-    <img src="https://github.com/RicardoMorato/eCommerceApp/demo/detailScreen.png" alt="Detail Screen" />
+    <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/demo/detailScreen.png" alt="Detail Screen" />
 </div>
 
 ## Getting Started
