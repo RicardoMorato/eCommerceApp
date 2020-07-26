@@ -4,6 +4,7 @@ import 'package:shop_app/models/Products.dart';
 import 'package:shop_app/screens/details/components/product_title_with_image.dart';
 
 import 'color_and_size.dart';
+import 'description.dart';
 
 class Body extends StatelessWidget {
   final Product product;
@@ -37,6 +38,9 @@ class Body extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       ColorAndSize(
+                        product: product,
+                      ),
+                      Description(
                         product: product,
                       ),
                     ],
