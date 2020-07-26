@@ -7,7 +7,7 @@ An e-commerce app made with Flutter.
 <p align="center">
     <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/demo/homeScreen.png" alt="Home Screen" />
     <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/demo/detailScreen.png" alt="Detail Screen" />
-    <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/navigation.gif" alt="Gif animation of the navigation on the app" />
+    <img src="https://github.com/RicardoMorato/eCommerceApp/blob/master/demo/navigation.gif" alt="Gif animation of the navigation on the app" />
 </p>
 
 ## Getting Started
